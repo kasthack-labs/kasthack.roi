@@ -20,7 +20,7 @@ namespace kasthack.roi.test
         [Test] public async Task PollWorks() => this.ValidatePetitions(await this.Client.Poll().ConfigureAwait(false));
         [Test] public async Task CompleteWorks() => this.ValidatePetitions(await this.Client.Complete().ConfigureAwait(false));
         [Test] public async Task AdvisementWorks() => this.ValidatePetitions(await this.Client.Advisement().ConfigureAwait(false), false);//sometimes there are no petitions on advisement
-        [Test] public async Task ThrowsOnError() => Assert.ThrowsAsync<RoiException>(async () => await Client.Petition(99999999).ConfigureAwait(false));//bad request, petition does not exist
+        [Test] public void ThrowsOnError() => Assert.ThrowsAsync<RoiException>(async () => await Client.Petition(99999999).ConfigureAwait(false));//bad request, petition does not exist
         [Test]
         public async Task FullPetitionWorks() {
             //well-known data: 
