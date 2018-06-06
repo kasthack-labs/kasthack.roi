@@ -1,0 +1,21 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+before_build:
+- ps: dotnet restore src
+configuration:
+  - Debug
+  - Release
+build:
+  publish_nuget: true
+  verbosity: minimal
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: $(appveyor_build_version)
+deploy:
+- provider: NuGet
+  api_key:
+    secure: io1roUV4i9JVWkiXom76fnXpVhHyusYUOzdHwkiYa34RGhZoIo5w8rz0z/MSuwS+
+  on:
+    branch: master
+    configuration: Release
