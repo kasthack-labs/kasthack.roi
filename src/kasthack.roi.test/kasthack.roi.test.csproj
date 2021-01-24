@@ -1,5 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <NoWarn>SA1600</NoWarn>
     <TargetFrameworks>net461;net47;net471;net48;net5.0</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
