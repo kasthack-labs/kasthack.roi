@@ -2,9 +2,10 @@
 
 [![Nuget](https://img.shields.io/nuget/v/kasthack.roi.svg)](https://www.nuget.org/packages/kasthack.roi/)
 [![NuGet](https://img.shields.io/nuget/dt/kasthack.roi.svg)](https://www.nuget.org/packages/kasthack.roi/)
-[![Build status](https://img.shields.io/appveyor/ci/kasthack/kasthack-roi/master.svg)](https://ci.appveyor.com/project/kasthack/kasthack-roi)
-[![license](https://img.shields.io/github/license/kasthack/kasthack.roi.svg)](LICENSE)
-[![Gitter](https://img.shields.io/gitter/room/kasthack_roi/Lobby.svg)](https://gitter.im/kasthack-roi/Lobby)
+[![.NET Status](https://github.com/kasthack-archive/kasthack.timelapser/workflows/.NET/badge.svg)](https://github.com/kasthack-archive/kasthack.timelapser/actions?query=workflow%3A.NET)
+[![CodeQL](https://github.com/kasthack-archive/kasthack.timelapser/workflows/CodeQL/badge.svg)](https://github.com/kasthack-archive/kasthack.timelapser/actions?query=workflow%3ACodeQL)
+[![Patreon pledges](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkasthack%26type%3Dpledges&style=flat)](https://patreon.com/kasthack)
+[![Patreon patrons](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkasthack%26type%3Dpatrons&style=flat)](https://patreon.com/kasthack)
 
 ## What
 
